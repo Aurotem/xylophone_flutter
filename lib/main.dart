@@ -24,6 +24,9 @@ class XylophoneApp extends StatelessWidget {
         },
         child: Text(
           btnNote,
+          style: TextStyle(
+            color: Colors.black
+          )
         ),
       ),
     );
